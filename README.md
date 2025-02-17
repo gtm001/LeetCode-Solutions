@@ -17,9 +17,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [1160-letter-tile-possibilities](https://github.com/gtm001/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/gtm001/LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/gtm001/LeetCode-Solutions/tree/master/0001-two-sum) |
+| [1160-letter-tile-possibilities](https://github.com/gtm001/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
+## String
+|  |
+| ------- |
+| [1160-letter-tile-possibilities](https://github.com/gtm001/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
+## Counting
+|  |
+| ------- |
+| [1160-letter-tile-possibilities](https://github.com/gtm001/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
 <!---LeetCode Topics End-->
