@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/gtm001/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gtm001/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Dynamic Programming
 |  |
@@ -17,4 +18,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/gtm001/LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/gtm001/LeetCode-Solutions/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
