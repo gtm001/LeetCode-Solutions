@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/gtm001/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/gtm001/LeetCode-Solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gtm001/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [2107-find-unique-binary-string](https://github.com/gtm001/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1160-letter-tile-possibilities](https://github.com/gtm001/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/gtm001/LeetCode-Solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
+| [2107-find-unique-binary-string](https://github.com/gtm001/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/gtm001/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/gtm001/LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Hash Table
@@ -30,11 +32,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/gtm001/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [1160-letter-tile-possibilities](https://github.com/gtm001/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
+| [2107-find-unique-binary-string](https://github.com/gtm001/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 ## String
 |  |
 | ------- |
 | [1160-letter-tile-possibilities](https://github.com/gtm001/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/gtm001/LeetCode-Solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
+| [2107-find-unique-binary-string](https://github.com/gtm001/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/gtm001/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Counting
 |  |
