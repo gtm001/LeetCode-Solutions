@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/gtm001/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [1160-letter-tile-possibilities](https://github.com/gtm001/LeetCode-Solutions/tree/master/1160-letter-tile-possibilities) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/gtm001/LeetCode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2107-find-unique-binary-string](https://github.com/gtm001/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 ## String
 |  |
@@ -48,18 +49,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0404-sum-of-left-leaves](https://github.com/gtm001/LeetCode-Solutions/tree/master/0404-sum-of-left-leaves) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/gtm001/LeetCode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0404-sum-of-left-leaves](https://github.com/gtm001/LeetCode-Solutions/tree/master/0404-sum-of-left-leaves) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/gtm001/LeetCode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0404-sum-of-left-leaves](https://github.com/gtm001/LeetCode-Solutions/tree/master/0404-sum-of-left-leaves) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/gtm001/LeetCode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0404-sum-of-left-leaves](https://github.com/gtm001/LeetCode-Solutions/tree/master/0404-sum-of-left-leaves) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/gtm001/LeetCode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Binary Search
 |  |
 | ------- |
@@ -72,4 +77,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2456-construct-smallest-number-from-di-string](https://github.com/gtm001/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
+## Design
+|  |
+| ------- |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/gtm001/LeetCode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 <!---LeetCode Topics End-->
