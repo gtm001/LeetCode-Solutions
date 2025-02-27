@@ -25,15 +25,18 @@ class Solution {
             root.right = deleteNode(root.right,key);
         }
         else{
+            // case 1
             if(root.left==null && root.right==null){
                 return null;
             }
+            // case 2
             else if(root.right==null){
                 return root.left;
             }
             else if(root.left==null){
                 return root.right;
             }
+            // case 3
             else{
                 TreeNode iS = inOrderSuccessor(root.right);
                 root.val = iS.val;
