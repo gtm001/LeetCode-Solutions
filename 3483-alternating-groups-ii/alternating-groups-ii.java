@@ -20,3 +20,6 @@ class Solution {
         return count;
     }
 }
+
+// Remember if you waht to find a substring in an Linear array then you have to iterate till " i<n-k+1",
+// but in case of circular it should be "i<n+k-1".
