@@ -28,8 +28,8 @@ class Solution {
             currNode = nextNode;
          }
          // connecting the remaining nodes in proper order
-         leftpre.next = preNode; 
-         sublistHead.next = currNode;
+         leftpre.next = preNode; // here preNode will be the currNode
+         sublistHead.next = currNode; // And currNode will be the next Node.
         return dummy.next;
     }
 }
