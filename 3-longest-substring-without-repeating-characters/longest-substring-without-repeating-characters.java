@@ -14,3 +14,8 @@ class Solution {
         return max;
     }
 }
+
+// -----------In bt if we take reference from array then
+// to find the left child of an idex it will be 2i+1
+// for right 2i+2
+// for present i-1/2
