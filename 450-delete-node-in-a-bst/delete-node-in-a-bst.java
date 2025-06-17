@@ -15,6 +15,7 @@
  */
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
+        // Phase-1
         if(root==null){
             return null;
         }
@@ -24,6 +25,7 @@ class Solution {
         else if(root.val<key){
             root.right = deleteNode(root.right,key);
         }
+        // PHASE-2
         else{
             // case 1
             if(root.left==null && root.right==null){
@@ -52,3 +54,9 @@ class Solution {
         return root;
     }
 }
+
+// IS - the node which replaces the node which is going to be delete is called Inorder Successor!
+// BST NEVER DEAL WITH DUBLICATE DATA, But BINARY TREE MAY CONTAINS!
+// First IS is Largest from the Left and Second IS is Smallest from the right! (when having Two child).
+// No IS for Leaf Node!
+// And for Single Child his Child is the only IS.
