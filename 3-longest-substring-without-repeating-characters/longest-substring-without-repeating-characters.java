@@ -1,21 +1,18 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        int max = 0;
         HashSet<Character> set = new HashSet<>();
-        int left = 0;
-        for(int right = 0;right<s.length();right++){
-            while(set.contains(s.charAt(right))){
-                set.remove(s.charAt(left));
-                left++;
+        int maxL = 0;
+        int l = 0;
+        int n = s.length();
+        for(int r=0;r<n;r++){
+            char ch = s.charAt(r);
+            while(set.contains(ch)){
+                set.remove(s.charAt(l));
+                l++;
             }
-                set.add(s.charAt(right));
-                max=Math.max(max,right-left+1);
+            set.add(ch);
+            maxL = Math.max(maxL,r-l+1);
         }
-        return max;
+        return maxL;
     }
 }
-
-// -----------In bt if we take reference from array then
-// to find the left child of an idex it will be 2i+1
-// for right 2i+2
-// for present i-1/2
