@@ -8,7 +8,7 @@ class Solution {
                 res[0] = set.get(val);
                 res[1] = i;
             }
-            set.put(nums[i],i);
+            set.put(nums[i],i); // key,value
         }
         return res;
     }
