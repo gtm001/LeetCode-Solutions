@@ -3,17 +3,17 @@ class Solution {
         List<List<Integer>> list = new ArrayList<>();
         List<Integer> valA = new ArrayList<>();
         int start = 1;
-        if(numRows==1){
-            valA.add(1);
-            list.add(new ArrayList<>(valA));
-        }
+        // if(numRows==1){
+        //     valA.add(1);
+        //     list.add(new ArrayList<>(valA));
+        // }
         // else if(numRows==2){
         //     valA.add(1);
         //     list.add(new ArrayList<>(valA));
         //     valA.add(1);
         //     list.add(new ArrayList<>(valA));
         // }
-        else{
+        // else{
             valA.add(1); // row 1
             list.add(new ArrayList<>(valA));
             while(start<numRows){
@@ -29,7 +29,7 @@ class Solution {
                 list.add(newRow);
                 start++;
 
-        }
+        // }
         }
         return list;
     }
