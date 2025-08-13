@@ -7,12 +7,12 @@ class Solution {
             valA.add(1);
             list.add(new ArrayList<>(valA));
         }
-        else if(numRows==2){
-            valA.add(1);
-            list.add(new ArrayList<>(valA));
-            valA.add(1);
-            list.add(new ArrayList<>(valA));
-        }
+        // else if(numRows==2){
+        //     valA.add(1);
+        //     list.add(new ArrayList<>(valA));
+        //     valA.add(1);
+        //     list.add(new ArrayList<>(valA));
+        // }
         else{
             valA.add(1); // row 1
             list.add(new ArrayList<>(valA));
