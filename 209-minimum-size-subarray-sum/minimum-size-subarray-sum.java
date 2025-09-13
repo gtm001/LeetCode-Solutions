@@ -15,21 +15,43 @@
 //     }
 // }
 
+// class Solution {
+//     public int minSubArrayLen(int target, int[] nums) {
+//         int l = 0;
+//         int r = 0;
+//         int n = nums.length;
+//         int sum = 0;
+//         int e = 0;
+//         int len = Integer.MAX_VALUE;
+//         while(r<=n-1){
+//             sum+=nums[r];
+//             if(sum>=target){
+//                 len = Math.min(len,r-l+1);
+//                 l++;
+//                 r=l-1;
+//                 sum = 0;
+//             }
+//             r++;
+//         }
+//         return len==Integer.MAX_VALUE?0:len;
+//     }
+// }
+
+// ---------- Sliding Window --------------
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
-        int l = 0;
+        int sum = 0;
+        int l=0;
         int r = 0;
         int n = nums.length;
-        int sum = 0;
-        int e = 0;
         int len = Integer.MAX_VALUE;
-        while(r<=n-1){
+        while(r<n){
             sum+=nums[r];
-            if(sum>=target){
+            // shrinking
+            while(sum>=target){
                 len = Math.min(len,r-l+1);
+                sum-=nums[l];
                 l++;
-                r=l-1;
-                sum = 0;
             }
             r++;
         }
