@@ -5,8 +5,8 @@ class Solution {
         for(int i=0;i<word.length();i++){
             map.put(word.charAt(i),i);
         }
-        for(Character key: map.keySet()){
-            if(Character.isLowerCase(key) && word.contains(String.valueOf((Character.toUpperCase(key))))){
+        for(Map.Entry<Character,Integer> entry : map.entrySet()){
+            if(Character.isLowerCase(entry.getKey()) && word.contains(String.valueOf((Character.toUpperCase(entry.getKey()))))){
                 count++;
             }
         }
