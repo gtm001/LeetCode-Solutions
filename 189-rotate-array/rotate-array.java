@@ -7,7 +7,7 @@ class Solution {
         rotArr(nums,k,n-1);
     }
     public static void rotArr(int[] nums,int l,int r){
-        while(l<=r){
+        while(l<r){
             int t = nums[l];
             nums[l] = nums[r];
             nums[r] = t;
