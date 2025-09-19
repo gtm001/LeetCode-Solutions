@@ -22,9 +22,6 @@ class Solution {
             // Adding Bottom
         if(srow<erow){
             for(int i=ecol-1;i>=scol;i--){
-                // if(matrix[srow][i]==matrix[erow][i]){
-                //     break;
-                // }
                 list.add(matrix[erow][i]);
             }
             }
