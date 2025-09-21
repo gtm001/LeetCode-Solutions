@@ -13,14 +13,14 @@ class Solution {
         if(head==null || head.next==null){
             return head;
         }
-        ListNode prev = null;
         ListNode curr = head;
+        ListNode prev = null;
         while(curr!=null){
-            ListNode nxtNode = curr.next;
+            ListNode temp = curr.next;
             curr.next = prev;
             // swap
             prev = curr;
-            curr = nxtNode;
+            curr = temp;
         }
         return prev;
     }
