@@ -17,9 +17,10 @@ class Solution {
         }
 
         for(int i=0;i<n1;i++){
-            int lsum = arrp[i]-nums[i];
-            int rsum = arrs[i]-nums[i];
-            if(lsum==rsum){
+            // int lsum = arrp[i]-nums[i];
+            // int rsum = arrs[i]-nums[i];
+            // if(lsum==rsum){
+            if(arrp[i]==arrs[i]){
                 return i;
             }
         }
