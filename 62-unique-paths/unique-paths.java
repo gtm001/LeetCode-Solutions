@@ -8,12 +8,12 @@ class Solution {
         }
         int[][]dp = new int[m+1][n+1];
         // pre-populate
-        for(int i=0;i<=n;i++){
-            dp[0][i] = 0;
-        }
-        for(int j=0;j<=m;j++){
-            dp[j][0] = 0;
-        }
+        // for(int i=0;i<=n;i++){
+        //     dp[0][i] = 0;
+        // }
+        // for(int j=0;j<=m;j++){
+        //     dp[j][0] = 0;
+        // }
         dp[1][1] = 1;
         // fill dp table;
         for(int i=1;i<=m;i++){
