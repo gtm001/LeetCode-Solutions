@@ -1,27 +1,23 @@
 class Solution {
     public boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> st = new Stack<>();
         for(int i=0;i<s.length();i++){
-            Character ch = s.charAt(i);
-            if(ch=='(' || ch=='{' || ch=='['){ // handels opening bracket
-                stack.push(ch);
+            char ch = s.charAt(i);
+            if(ch=='('){
+              st.push(')');
+            }
+            else if(ch=='['){
+                st.push(']');
+            }
+            else if(ch=='{'){
+                st.push('}');
             }
             else{
-                if(stack.isEmpty()){
+                if(st.isEmpty()||ch!=st.pop()){
                     return false;
                 }
-                char top = stack.peek();
-                if((ch==')' && top=='(') || (ch=='}' && top=='{') || (ch==']' && top=='[')){ // handels closing bracket
-                stack.pop(); 
-                    }
-                    else{
-                        return false;
-                        }
-                    }
-                 }
-        return stack.isEmpty();
+            }
+        }
+        return st.isEmpty();
     }
-        
-    }
-        
-    
+}
